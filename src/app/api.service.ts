@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import jwt_decode from 'jwt-decode';
 @Injectable()
 export class ApiService {
-    private apiUrl = 'http://localhost:8001'; 
+    private apiUrl = 'http://3.86.105.24:8001'; 
 
 constructor(private http: HttpClient) { }
 /**
